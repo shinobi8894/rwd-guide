@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: Poppins;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.text-wrapper{
+  flex: 1 1;
+}
+.container{
+  max-width: 80rem;
+}
+
+@media screen and (max-width:1024px) {
+    .row{
+      flex-direction: column;
+      align-items: center;
+    }
+    h1{
+      text-align: center;
+    }
+}
